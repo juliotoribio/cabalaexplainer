@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: 'TAN-ASTORIA-Display';
   src: url('fonts/TAN-ASTORIA-Display.otf') format('opentype');
@@ -6,20 +7,18 @@
 }
 
 @font-face {
-    font-family: 'Gilroy';
-    src: url('fonts/Gilroy/Gilroy-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-  }
+  font-family: 'Gilroy';
+  src: url('fonts/Gilroy/Gilroy-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
   
-  @font-face {
-    font-family: 'Gilroy';
-    src: url('fonts/Gilroy/Gilroy-LightItalic.ttf') format('truetype');
-    font-weight: 300;
-    font-style: italic;
-  }
-
-  
+@font-face {
+  font-family: 'Gilroy';
+  src: url('fonts/Gilroy/Gilroy-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
 
 body {
   font-family: sans-serif;
@@ -35,8 +34,6 @@ body {
   margin-top: 60px!important;
   padding: 0px 20%;
   text-align: center;
-
-
 }
 
 /* Elimina padding en dispositivos móviles */
@@ -67,9 +64,7 @@ body {
   h2 {
     font-size: 12px!important;
   }
-
 }
-
 
 h1 {
   font-family: 'TAN-ASTORIA-Display', sans-serif;
@@ -81,18 +76,17 @@ h1 {
 }
 
 .parrafo-home {
-    font-family: 'Gilroy', Arial, sans-serif;
-    font-style: Medium;
-    font-size: 12px;
-    padding: 0px 20px 20px 30px;
-    color: #1C1C1C;
-  }
+  font-family: 'Gilroy', Arial, sans-serif;
+  font-style: Medium;
+  font-size: 12px;
+  padding: 0px 20px 20px 30px;
+  color: #1C1C1C;
+}
 
 svg {
   max-width: 90%;
   height: auto;
 }
-
 
 .sephirah {
   cursor: pointer;
@@ -101,10 +95,9 @@ svg {
 }
 
 .sephirah:hover {
-    stroke: #000;
-    stroke-width: 2;
-    stroke-dasharray: none;
-
+  stroke: #000;
+  stroke-width: 2;
+  stroke-dasharray: none;
 }
 
 .sephirah-text {
@@ -117,26 +110,27 @@ svg {
 }
 
 .sephirah-sub {
-    font-family: 'Gilroy', Arial, sans-serif;
-    font-size: 8px;
-    font-style: italic;
-    fill: #fff; /* gris más claro o el color que prefieras */
-  }
+  font-family: 'Gilroy', Arial, sans-serif;
+  font-size: 8px;
+  font-style: italic;
+  fill: #fff; /* gris más claro o el color que prefieras */
+}
 
 .sephirah-text-2{
-    font-family: 'Gilroy', Arial, sans-serif;
-    font-size: 10px;
-    font-weight: bold;
-    fill: #000;
-    pointer-events: none;
-    user-select: none;  }
+  font-family: 'Gilroy', Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  fill: #000;
+  pointer-events: none;
+  user-select: none;
+}
 
-    .sephirah-sub-2 {
-        font-family: 'Gilroy', Arial, sans-serif;
-        font-size: 8px;
-        font-weight: normal;
-        fill: #000; /* gris más claro o el color que prefieras */
-      }
+.sephirah-sub-2 {
+  font-family: 'Gilroy', Arial, sans-serif;
+  font-size: 8px;
+  font-weight: normal;
+  fill: #000; /* gris más claro o el color que prefieras */
+}
 
 .modal {
   font-family: 'Gilroy', Arial, sans-serif;
@@ -150,7 +144,7 @@ svg {
   z-index: 10;
   display: none;
   max-width: 80%;
-  }
+}
 
 .backdrop {
   position: fixed;
@@ -161,23 +155,23 @@ svg {
   background: rgba(0, 0, 0, 0.5);
   z-index: 5;
   display: none;
-  }
+}
 
-  .modal button {
-    font-family: 'Gilroy', Arial, sans-serif;
-    background: #000;
-    color: white;
-    padding: 0.5rem 1.2rem;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 0.9rem;
-    transition: background 0.2s ease;
-  }
+.modal button {
+  font-family: 'Gilroy', Arial, sans-serif;
+  background: #000;
+  color: white;
+  padding: 0.5rem 1.2rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.2s ease;
+}
   
-  .modal button:hover {
+.modal button:hover {
     background: #000;
-  }
+}
 
 /* Estilos Sephirad */
 .cls-9 {
@@ -185,92 +179,91 @@ svg {
   stroke: #fff;
   stroke-width: 1;
   stroke-dasharray: none;
-  }
+}
 
 .cls-11{
-    fill: #FFAB00;
-    stroke: #fff;
-    stroke-width: 1;
-    stroke-dasharray: none;
-  }
+  fill: #FFAB00;
+  stroke: #fff;
+  stroke-width: 1;
+  stroke-dasharray: none;
+}
 
 .cls-7{
-    fill: #003e9a;
-    stroke: #fff;
-    stroke-width: 1;
-    stroke-dasharray: none;
-  }
+  fill: #003e9a;
+  stroke: #fff;
+  stroke-width: 1;
+  stroke-dasharray: none;
+}
 
 .cls-12{
-    fill: #ff0a00;
-    stroke: #fff;
-    stroke-width: 1;
-    stroke-dasharray: none;
-  }
+  fill: #ff0a00;
+  stroke: #fff;
+  stroke-width: 1;
+  stroke-dasharray: none;
+}
   
 .cls-2{
-    fill: #8b838a;
-    stroke: #fff;
-    stroke-width: 1;
-    stroke-dasharray: none;
-  }
+  fill: #8b838a;
+  stroke: #fff;
+  stroke-width: 1;
+  stroke-dasharray: none;
+}
 
 .cls-5{
-    fill: #1d2225;
-    stroke: #fff;
-    stroke-width: 1;
-    stroke-dasharray: none;
-  }
+  fill: #1d2225;
+  stroke: #fff;
+  stroke-width: 1;
+  stroke-dasharray: none;
+}
 
 .cls-16{
-    fill: #fff;
-    stroke: #fff;
-    stroke-width: 1;
-    stroke-dasharray: none;
-  }
+  fill: #fff;
+  stroke: #fff;
+  stroke-width: 1;
+  stroke-dasharray: none;
+}
 
 .cls-4{
-    fill: #7800a8;
-    stroke: #fff;
-    stroke-width: 1;
-    stroke-dasharray: none;
-  }
+  fill: #7800a8;
+  stroke: #fff;
+  stroke-width: 1;
+  stroke-dasharray: none;
+}
 
   .cls-6{
-    fill: #024921;
-    stroke: #fff;
-    stroke-width: 1;
-    stroke-dasharray: none;
-  }
+  fill: #024921;
+  stroke: #fff;
+  stroke-width: 1;
+  stroke-dasharray: none;
+}
 
 .cls-14{
-    fill: #024921;
-    stroke: #fff;
-    stroke-width: 0;
-    stroke-dasharray: none;
-  }
+  fill: #024921;
+  stroke: #fff;
+  stroke-width: 0;
+  stroke-dasharray: none;
+}
 
 .cls-13{
-    fill: #FFAB00;
-    stroke: #fff;
-    stroke-width: 0;
-    stroke-dasharray: none;
+  fill: #FFAB00;
+  stroke: #fff;
+  stroke-width: 0;
+  stroke-dasharray: none;
 }
 
 .cls-18{
-    fill: #ff0400;
-    stroke: #fff;
-    stroke-width: 0;
-    stroke-dasharray: none;
+  fill: #ff0400;
+  stroke: #fff;
+  stroke-width: 0;
+  stroke-dasharray: none;
 }
 
 .cls-19{
-    fill: #242329;
-    stroke: #fff;
-    stroke-width: 0;
-    stroke-dasharray: none;
+  fill: #242329;
+  stroke: #fff;
+  stroke-width: 0;
+  stroke-dasharray: none;
 }
-
 
 .cls-15 {
   fill: #fff;
@@ -279,61 +272,57 @@ svg {
   stroke-dasharray: none;
 } 
 
-
 .cls-20, .cls-21, .cls-22 {
-    fill: #ffffff00;
-    stroke: #989898;
-    stroke-width: 0.5;
-    stroke-dasharray: none;
-    stroke-dasharray: 2 2; /* 4 unidades de trazo, 2 unidades de espacio */
+  fill: #ffffff00;
+  stroke: #989898;
+  stroke-width: 0.5;
+  stroke-dasharray: none;
+  stroke-dasharray: 2 2; /* 4 unidades de trazo, 2 unidades de espacio */
+} 
 
-  } 
-
-
-  .cls-20:hover{
-    fill: #ffffff00;
-    stroke:#E93730;
-    stroke-width: 1;
-    stroke-dasharray: none;
-    stroke-dasharray: 2 2; /* 4 unidades de trazo, 2 unidades de espacio */
-  } 
+.cls-20:hover{
+  fill: #ffffff00;
+  stroke:#E93730;
+  stroke-width: 1;
+  stroke-dasharray: none;
+  stroke-dasharray: 2 2; /* 4 unidades de trazo, 2 unidades de espacio */
+} 
   
-  .cls-21:hover{
-    fill: #ffffff00;
-    stroke:#6DA944;
-    stroke-width: 1;
-    stroke-dasharray: none;
-    stroke-dasharray: 2 2; /* 4 unidades de trazo, 2 unidades de espacio */
-  } 
+.cls-21:hover{
+  fill: #ffffff00;
+  stroke:#6DA944;
+  stroke-width: 1;
+  stroke-dasharray: none;
+  stroke-dasharray: 2 2; /* 4 unidades de trazo, 2 unidades de espacio */
+} 
 
-  .cls-22:hover{
-    fill: #ffffff00;
-    stroke:#0885C4;
-    stroke-width: 1;
-    stroke-dasharray: none;
-    stroke-dasharray: 2 2; /* 4 unidades de trazo, 2 unidades de espacio */
-  } 
+.cls-22:hover{
+  fill: #ffffff00;
+  stroke:#0885C4;
+  stroke-width: 1;
+  stroke-dasharray: none;
+  stroke-dasharray: 2 2; /* 4 unidades de trazo, 2 unidades de espacio */
+} 
 
-  .cls-23, .cls-24, .cls-25 {
-    fill: #fff;
-    stroke:#7a7a7a;
-    stroke-width: 0.5;
-    stroke-dasharray: none;
-  } 
+.cls-41, .cls-40, .cls-39, .cls-38, .cls-37, .cls-36, .cls-35,  .cls-34,  .cls-33 {
+  fill: #fff;
+  stroke:#7a7a7a;
+  stroke-width: 0.5;
+  stroke-dasharray: none;
+} 
 
-  .label-text {
-    font-family: 'Gilroy', 'Arial', sans-serif;
-    font-size: 10px;
-    fill: #000;
-  }
+.label-text {
+  font-family: 'Gilroy', 'Arial', sans-serif;
+  font-size: 10px;
+  fill: #000;
+}
   
-  .label-number {
+.label-number {
     font-size: 12px;
     font-weight: bold;
-  }
+}
 
-
-  .footer {
+.footer {
     font-family: 'Gilroy';
     text-align: center;
     margin-top: 70px;
@@ -341,5 +330,5 @@ svg {
     background: #000000;
     font-size: 0.9rem;
     color: #fff;
-  }
+}
   

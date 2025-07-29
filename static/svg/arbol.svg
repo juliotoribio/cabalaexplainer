@@ -2,22 +2,21 @@
 
     <g id="Layer_1-2" data-name="Layer 1">
 
-      <rect class="cls-23" x=".25" y=".25" width="500.59" height="86.18" rx="19.12" ry="19.12"/>
+      <rect class="cls-41" x=".25" y=".25" width="500.59" height="86.18" rx="19.12" ry="19.12"/>
       <text x="15" y="43.34" text-anchor="start" class="label-text">
         <tspan x="15" dy="-1.2em" class="label-number">8</tspan>
         <tspan x="15" dy="1.2em">No-Local</tspan>
         <tspan x="15" dy="1.2em">Quantum</tspan>
       </text>
 
-      <rect class="cls-23" x="271.05" y="90.99" width="229.79" height="81.74" rx="19.12" ry="19.12"/>
+      <rect class="cls-40" x="271.05" y="90.99" width="229.79" height="81.74" rx="19.12" ry="19.12"/>
       <text x="486" y="131.86" text-anchor="end" class="label-text">
         <tspan x="486" dy="-1.2em" class="label-number">7</tspan>
         <tspan x="486" dy="1.2em">Morfogenético</tspan>
         <tspan x="486" dy="1.2em">/ Neurogenético</tspan>
       </text>
 
-
-      <rect class="cls-23" x=".25" y="90.99" width="228.8" height="81.74" rx="19.12" ry="19.12"/>
+      <rect class="cls-39" x=".25" y="90.99" width="228.8" height="81.74" rx="19.12" ry="19.12"/>
       <text x="15" y="131.86" text-anchor="start" class="label-text">
         <tspan x="15" dy="-1.2em" class="label-number">6</tspan>
         <tspan x="15" dy="1.2em">Meta-</tspan>
@@ -25,7 +24,7 @@
       </text>
       
       <!-- Circuito 5 -->
-      <rect class="cls-23" x="271.05" y="218.39" width="229.79" height="81.74" rx="19.12" ry="19.12"/>
+      <rect class="cls-38" x="271.05" y="218.39" width="229.79" height="81.74" rx="19.12" ry="19.12"/>
       <text x="486" y="259.26" text-anchor="end" class="label-text">
         <tspan x="486" dy="-1.2em" class="label-number">5</tspan>
         <tspan x="486" dy="1.2em">Neuro-</tspan>
@@ -33,7 +32,7 @@
       </text>
 
       <!-- Circuito 4 -->
-      <rect class="cls-23" x=".25" y="218.39" width="228.8" height="81.74" rx="19.12" ry="19.12"/>
+      <rect class="cls-37" x=".25" y="218.39" width="228.8" height="81.74" rx="19.12" ry="19.12"/>
       <text x="15" y="259.26" text-anchor="start" class="label-text">
         <tspan x="15" dy="-1.2em" class="label-number">4</tspan>
         <tspan x="15" dy="1.2em">Socio-</tspan>
@@ -41,20 +40,15 @@
       </text>
 
       <!-- Circuito 3 -->
-      <rect class="cls-24" x=".25" y="319.35" width="228.8" height="81.74" rx="19.12" ry="19.12"/>
+      <rect class="cls-36" x=".25" y="319.35" width="228.8" height="81.74" rx="19.12" ry="19.12"/>
       <text x="15" y="360.22" text-anchor="start" class="label-text">
         <tspan x="15" dy="-1.2em" class="label-number">3</tspan>
         <tspan x="15" dy="1.2em">Semántico</tspan>
       </text>
-
-      <rect class="cls-24" x="271.05" y="319.35" width="229.79" height="81.74" rx="19.12" ry="19.12"/>
-
-
-
-
+      <rect class="cls-35" x="271.05" y="319.35" width="229.79" height="81.74" rx="19.12" ry="19.12"/>
 
       <!-- Circuito 2 -->
-      <rect class="cls-23" x=".25" y="405.63" width="500.68" height="98.45" rx="19.12" ry="19.12"/>
+      <rect class="cls-34" x=".25" y="405.63" width="500.68" height="98.45" rx="19.12" ry="19.12"/>
       <text x="15" y="454.855" text-anchor="start" class="label-text">
         <tspan x="15" dy="-1.2em" class="label-number">2</tspan>
         <tspan x="15" dy="1.2em">Emocional-</tspan>
@@ -62,13 +56,12 @@
       </text>
 
       <!-- Circuito 1 -->
-      <rect class="cls-23" x=".25" y="509.08" width="500.59" height="98.45" rx="19.12" ry="19.12"/>
+      <rect class="cls-33" x=".25" y="509.08" width="500.59" height="98.45" rx="19.12" ry="19.12"/>
       <text x="15" y="558.305" text-anchor="start" class="label-text">
         <tspan x="15" dy="-1.2em" class="label-number">1</tspan>
         <tspan x="15" dy="1.2em">Bio-</tspan>
         <tspan x="15" dy="1.2em">supervivencia</tspan>
       </text>
-
 
       <!-- Supraconscinte -->
       <circle class="cls-22" cx="246.56" cy="182.14" r="155.38"/>
@@ -78,8 +71,6 @@
 
       <!-- Inconsciente -->
       <circle class="cls-20" cx="246.56" cy="437.48" r="155.38"/>
-
-      
       
       <rect class="cls-15" x="238.15" y="398.59" width="127.42" height="12.55" transform="translate(-161.17 203.27) rotate(-29.77)"/>
       <rect class="cls-15" x="350.89" y="118.44" width="12.55" height="127.4"/>
@@ -103,71 +94,71 @@
       <rect class="cls-15" x="136.37" y="239.56" width="220.8" height="12.55"/>
       <rect class="cls-15" x="136.37" y="366.96" width="220.8" height="12.55"/>
       
-<!-- Keter -->
-<circle id="Keter" class="cls-16 sephirah" data-id="Keter" cx="246.45" cy="54.74" r="27.45"/>
-<text x="246.45" y="50" text-anchor="middle" class="sephirah-text-2">
-  <tspan x="246.45" dy="0">Keter</tspan>
-  <tspan x="246.45" dy="1.2em" class="sephirah-sub-2">Corona</tspan>
-</text>
+    <!-- Keter -->
+    <circle id="Keter" class="cls-16 sephirah" data-id="Keter" cx="246.45" cy="54.74" r="27.45"/>
+    <text x="246.45" y="50" text-anchor="middle" class="sephirah-text-2">
+      <tspan x="246.45" dy="0">Keter</tspan>
+      <tspan x="246.45" dy="1.2em" class="sephirah-sub-2">Corona</tspan>
+    </text>
 
-<!-- Chokmah -->
-<circle id="Chokmah" class="cls-2 sephirah" data-id="Chokmah" cx="357.17" cy="118.44" r="27.45"/>
-<text x="357.17" y="114" text-anchor="middle" class="sephirah-text">
-  <tspan x="357.17" dy="0">Chokmah</tspan>
-  <tspan x="357.17" dy="1.2em" class="sephirah-sub">Sabiduría</tspan>
-</text>
+    <!-- Chokmah -->
+    <circle id="Chokmah" class="cls-2 sephirah" data-id="Chokmah" cx="357.17" cy="118.44" r="27.45"/>
+    <text x="357.17" y="114" text-anchor="middle" class="sephirah-text">
+      <tspan x="357.17" dy="0">Chokmah</tspan>
+      <tspan x="357.17" dy="1.2em" class="sephirah-sub">Sabiduría</tspan>
+    </text>
 
-<!-- Binah -->
-<circle id="Binah" class="cls-5 sephirah" data-id="Binah" cx="136.37" cy="118.44" r="27.45"/>
-<text x="136.37" y="114" text-anchor="middle" class="sephirah-text">
-  <tspan x="136.37" dy="0">Binah</tspan>
-  <tspan x="136.37" dy="1.2em" class="sephirah-sub">Entendimiento</tspan>
-</text>
+    <!-- Binah -->
+    <circle id="Binah" class="cls-5 sephirah" data-id="Binah" cx="136.37" cy="118.44" r="27.45"/>
+    <text x="136.37" y="114" text-anchor="middle" class="sephirah-text">
+      <tspan x="136.37" dy="0">Binah</tspan>
+      <tspan x="136.37" dy="1.2em" class="sephirah-sub">Entendimiento</tspan>
+    </text>
 
-<!-- Chesed -->
-<circle id="Chesed" class="cls-7 sephirah" data-id="Chesed" cx="357.17" cy="245.84" r="27.45"/>
-<text x="357.17" y="241" text-anchor="middle" class="sephirah-text">
-  <tspan x="357.17" dy="0">Chesed</tspan>
-  <tspan x="357.17" dy="1.2em" class="sephirah-sub">Misericordia</tspan>
-</text>
+    <!-- Chesed -->
+    <circle id="Chesed" class="cls-7 sephirah" data-id="Chesed" cx="357.17" cy="245.84" r="27.45"/>
+    <text x="357.17" y="241" text-anchor="middle" class="sephirah-text">
+      <tspan x="357.17" dy="0">Chesed</tspan>
+      <tspan x="357.17" dy="1.2em" class="sephirah-sub">Misericordia</tspan>
+    </text>
 
-<!-- Geburah -->
-<circle id="Geburah" class="cls-12 sephirah" data-id="Geburah" cx="136.37" cy="245.84" r="27.45"/>
-<text x="136.37" y="241" text-anchor="middle" class="sephirah-text">
-  <tspan x="136.37" dy="0">Geburah</tspan>
-  <tspan x="136.37" dy="1.2em" class="sephirah-sub">Fuerza</tspan>
-</text>
+    <!-- Geburah -->
+    <circle id="Geburah" class="cls-12 sephirah" data-id="Geburah" cx="136.37" cy="245.84" r="27.45"/>
+    <text x="136.37" y="241" text-anchor="middle" class="sephirah-text">
+      <tspan x="136.37" dy="0">Geburah</tspan>
+      <tspan x="136.37" dy="1.2em" class="sephirah-sub">Fuerza</tspan>
+    </text>
 
-      
-<!-- Tiferet -->
-<circle id="Tiferet" class="cls-11 sephirah" data-id="Tiferet" cx="247.09" cy="309.54" r="27.45"/>
-<text x="247.09" y="305" text-anchor="middle" class="sephirah-text-2">
-  <tspan x="247.09" dy="0">Tiferet</tspan>
-  <tspan x="247.09" dy="1.2em" class="sephirah-sub-2">Belleza</tspan>
-</text>
+          
+    <!-- Tiferet -->
+    <circle id="Tiferet" class="cls-11 sephirah" data-id="Tiferet" cx="247.09" cy="309.54" r="27.45"/>
+    <text x="247.09" y="305" text-anchor="middle" class="sephirah-text-2">
+      <tspan x="247.09" dy="0">Tiferet</tspan>
+      <tspan x="247.09" dy="1.2em" class="sephirah-sub-2">Belleza</tspan>
+    </text>
 
-<!-- Netzach -->
-<circle id="Netzach" class="cls-6 sephirah" data-id="Netzach" cx="357.17" cy="373.24" r="27.45"/>
-<text x="357.17" y="369" text-anchor="middle" class="sephirah-text">
-  <tspan x="357.17" dy="0">Netzach</tspan>
-  <tspan x="357.17" dy="1.2em" class="sephirah-sub">Victoria</tspan>
-</text>
+    <!-- Netzach -->
+    <circle id="Netzach" class="cls-6 sephirah" data-id="Netzach" cx="357.17" cy="373.24" r="27.45"/>
+    <text x="357.17" y="369" text-anchor="middle" class="sephirah-text">
+      <tspan x="357.17" dy="0">Netzach</tspan>
+      <tspan x="357.17" dy="1.2em" class="sephirah-sub">Victoria</tspan>
+    </text>
 
-<!-- Hod -->
-<circle id="Hod" class="cls-9 sephirah" data-id="Hod" cx="136.37" cy="373.24" r="27.45"/>
-<text x="136.37" y="369" text-anchor="middle" class="sephirah-text">
-  <tspan x="136.37" dy="0">Hod</tspan>
-  <tspan x="136.37" dy="1.2em" class="sephirah-sub">Esplendor</tspan>
-</text>
+    <!-- Hod -->
+    <circle id="Hod" class="cls-9 sephirah" data-id="Hod" cx="136.37" cy="373.24" r="27.45"/>
+    <text x="136.37" y="369" text-anchor="middle" class="sephirah-text">
+      <tspan x="136.37" dy="0">Hod</tspan>
+      <tspan x="136.37" dy="1.2em" class="sephirah-sub">Esplendor</tspan>
+    </text>
 
-<!-- Yesod -->
-<circle id="Yesod" class="cls-4 sephirah" data-id="Yesod" cx="247.09" cy="436.94" r="27.45"/>
-<text x="247.09" y="432" text-anchor="middle" class="sephirah-text">
-  <tspan x="247.09" dy="0">Yesod</tspan>
-  <tspan x="247.09" dy="1.2em" class="sephirah-sub">Fundamento</tspan>
-</text>
+    <!-- Yesod -->
+    <circle id="Yesod" class="cls-4 sephirah" data-id="Yesod" cx="247.09" cy="436.94" r="27.45"/>
+    <text x="247.09" y="432" text-anchor="middle" class="sephirah-text">
+      <tspan x="247.09" dy="0">Yesod</tspan>
+      <tspan x="247.09" dy="1.2em" class="sephirah-sub">Fundamento</tspan>
+    </text>
 
-      
+          
 
     <g id="Malkuth">
         <path class="cls-13" d="M266.1,545.62c-4.93-4.74-11.63-7.66-19.01-7.66s-14.11,2.93-19.04,7.69l19.01,19.01,19.04-19.04Z"/>
