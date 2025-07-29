@@ -294,7 +294,7 @@ svg {
   .cls-20:hover{
     fill: #ffffff00;
     stroke:#E93730;
-    stroke-width: 2;
+    stroke-width: 1;
     stroke-dasharray: none;
     stroke-dasharray: 2 2; /* 4 unidades de trazo, 2 unidades de espacio */
   } 
@@ -302,7 +302,7 @@ svg {
   .cls-21:hover{
     fill: #ffffff00;
     stroke:#6DA944;
-    stroke-width: 2;
+    stroke-width: 1;
     stroke-dasharray: none;
     stroke-dasharray: 2 2; /* 4 unidades de trazo, 2 unidades de espacio */
   } 

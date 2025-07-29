@@ -9,25 +9,28 @@ const allIds = [
   'Netzach','Hod','Yesod','Malkuth'
 ];
 
-// 2) Configuración de cada «circuito»
+// 2) Configuración de cada «circuito» con su label
 const circuits = [
   {
     selector: '.cls-20',
     ids: ['Netzach','Hod','Yesod','Tiferet','Malkuth'],
     color: '#FF0801',
-    stroke: true
+    stroke: true,
+    label: 'Inconsciente'
   },
   {
     selector: '.cls-21',
     ids: ['Hod','Tiferet','Chesed','Netzach','Geburah','Yesod'],
     color: '#024921',
-    stroke: true
+    stroke: true,
+    label: 'Consciente'
   },
   {
     selector: '.cls-22',
     ids: ['Tiferet','Chesed','Geburah','Chokmah','Binah','Keter'],
     color: '#003E99',
-    stroke: true
+    stroke: true,
+    label: 'Supraconsciente'
   }
 ];
 
@@ -64,6 +67,11 @@ export function resetAll() {
   document.querySelectorAll('.cls-15').forEach(el => {
     el.style.stroke = '';
   });
+
+  // e) Borrar label de circuito si existe
+  const svg = document.querySelector('#svg-container svg');
+  const oldLabel = svg && svg.querySelector('.circuit-label-text');
+  if (oldLabel) svg.removeChild(oldLabel);
 }
 
 // 4) Función para cerrar modal (global para onclick)
@@ -105,12 +113,15 @@ function setupModal() {
   });
 }
 
-// 8) Configuración de los circuitos según la tabla
+// 8) Configuración de los circuitos según la tabla, mostrando el label en el centro del círculo
 function setupCircuits() {
-  circuits.forEach(({ selector, ids, color, stroke }) => {
+  const svg = document.querySelector('#svg-container svg');
+
+  circuits.forEach(({ selector, ids, color, stroke, label }) => {
     const trigger = document.querySelector(selector);
     let isActive = false;
 
+    if (!trigger) return;
     trigger.addEventListener('click', () => {
       isActive = !isActive;
       resetAll();
@@ -148,10 +159,30 @@ function setupCircuits() {
           txt.querySelectorAll('tspan').forEach(tp => tp.style.fill = 'white');
         });
 
-      // d) Conectores (.cls-15) en rojo
+      // d) Conectores (.cls-15) en gris claro
       document.querySelectorAll('.cls-15').forEach(el => {
         el.style.stroke = '#dddddd';
       });
+
+      // e) Añadir el label dentro del SVG en el centro del círculo
+      const cx = trigger.getAttribute('cx');
+      const cy = trigger.getAttribute('cy');
+      const offsetY = 55; // mueve el texto 15 unidades hacia arriba
+      const yPos = parseFloat(cy) - offsetY;
+      
+      const textEl = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+      textEl.setAttribute('x', cx);
+      textEl.setAttribute('y', yPos);
+      textEl.setAttribute('class', 'circuit-label-text');
+      textEl.setAttribute('text-anchor', 'middle');
+      textEl.setAttribute('alignment-baseline', 'middle');
+      textEl.setAttribute('fill', color);
+      textEl.setAttribute('font-size', '1rem');
+      // → Aquí añadimos Gilroy como font-family:
+      textEl.setAttribute('font-family', 'Gilroy, sans-serif');
+      textEl.style.pointerEvents = 'none';
+      textEl.textContent = label;
+      svg.appendChild(textEl);
     });
   });
 }
