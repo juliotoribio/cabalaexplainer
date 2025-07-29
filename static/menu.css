@@ -1,13 +1,19 @@
 /* contenedor principal */
 .navbar {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   align-items: center;
-  margin: 0px 7%;
+  width: 80%;        /* 100% menos 2×7% de margen */
   padding: 10px 20px;
   background: #fff;
   border-radius: 1rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);}
-
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  z-index: 1000;     /* que quede por encima de todo */
+}
+  
 /* logo */
 .navbar__logo img {
   height: 40px;

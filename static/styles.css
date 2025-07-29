@@ -27,8 +27,10 @@ body {
   padding: 0px 0%;
   background: #FFFFFF;
   text-align: center;
-  margin-top: 24px;
-  margin-bottom: 40px;
+  margin-top: 40px;
+  padding-top: 50px;
+
+  margin-bottom: 60px;
 
 }
 
