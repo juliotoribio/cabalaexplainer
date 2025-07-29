@@ -42,3 +42,14 @@
   font-weight: 500;
   margin-left: auto; /* garantiza que quede a la derecha */
 }
+
+
+.navbar__menu .navbar__item a {
+  text-decoration: none;
+  transition: text-decoration 0.2s ease;
+}
+
+.navbar__menu .navbar__item a:hover,
+.navbar__menu .navbar__item a:focus {
+  text-decoration: underline;
+}
