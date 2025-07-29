@@ -132,7 +132,7 @@ function setupCircuits() {
         const t = document.querySelector(c.selector);
         if (!t) return;
         if (c.selector === selector && stroke) {
-          t.style.strokeWidth = '2';
+          t.style.strokeWidth = '1.1';
           t.style.stroke = color;
         } else {
           t.style.stroke = 'white';
