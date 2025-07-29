@@ -24,23 +24,15 @@
   justify-content: center;
 }
 
+
+
 /* cada enlace del menú */
 .navbar__item a {
   text-decoration: none;
   font-weight: 500;
   color: #000; /* tu color */
-}
+  font-family: 'Gilroy';
 
-/* botón “Contáctanos” */
-.navbar__button {
-  display: inline-block;
-  background-color: #000;  /* tu color principal */
-  color: #fff;
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  font-weight: 500;
-  margin-left: auto; /* garantiza que quede a la derecha */
 }
 
 
@@ -52,4 +44,53 @@
 .navbar__menu .navbar__item a:hover,
 .navbar__menu .navbar__item a:focus {
   text-decoration: underline;
+}
+
+
+/* botón de enlace */
+.navbar__button {
+  display: inline-block;
+  font-family: 'Gilroy', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  background-color: #000;
+  padding: 0.6em 1.1em;
+  border: none;
+  border-radius: .6rem;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  text-decoration: none;     /* para quitar subrayado */
+}
+
+/* las cinco burbujas */
+.navbar__button span:not(:nth-child(6)) {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 30px;
+  width: 30px;
+  background-color: #3b4657;
+  border-radius: 50%;
+  transition: .6s ease;
+}
+
+/* el texto dentro del enlace */
+.navbar__button span:nth-child(6) {
+  position: relative;
+  z-index: 1;
+}
+
+/* posiciones iniciales de cada burbuja */
+.navbar__button span:nth-child(1) { transform: translate(-3.3em, -4em); }
+.navbar__button span:nth-child(2) { transform: translate(-6em, 1.3em); }
+.navbar__button span:nth-child(3) { transform: translate(-.2em, 1.8em); }
+.navbar__button span:nth-child(4) { transform: translate(3.5em, 1.4em); }
+.navbar__button span:nth-child(5) { transform: translate(3.5em, -3.8em); }
+
+/* hover: crecen las burbujas */
+.navbar__button:hover span:not(:nth-child(6)) {
+  transform: translate(-50%, -50%) scale(4);
+  transition: 1.5s ease;
 }
