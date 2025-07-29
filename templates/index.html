@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Árbol de la Vida</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Estilos CSS -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  <!-- Lógica JS principal como módulo -->
+  <script type="module" src="{{ url_for('static', filename='js/main.js') }}" defer></script>
+  <!-- Lógica JS para reset global como módulo -->
+  <script type="module" src="{{ url_for('static', filename='js/reset.js') }}" defer></script>
+</head>
+
+<body>
+  <h1 style="margin:0">Integración Cábala / Neuro Circuitos</h1>
+  <div class="parrafo-home">
+    <h2>
+      El Árbol de la Vida representa niveles de conciencia y manifestación. Al integrarlo con los 8 neurocircuitos se revela cómo la psique humana puede evolucionar desde la supervivencia básica hasta estados trascendentales.
+    </h2>
+  </div>
+
+  <!-- Contenedor donde se inyectará el SVG -->
+  <div id="svg-container"></div>
+
+  <!-- Modal parcial de información -->
+  {% include 'partials/modal.html' %}
+</body>
+</html>

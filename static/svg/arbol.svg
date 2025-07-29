@@ -1,0 +1,188 @@
+  <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 501.18 607.77">
+
+    <g id="Layer_1-2" data-name="Layer 1">
+
+      <rect class="cls-23" x=".25" y=".25" width="500.59" height="86.18" rx="19.12" ry="19.12"/>
+      <text x="15" y="43.34" text-anchor="start" class="label-text">
+        <tspan x="15" dy="-1.2em" class="label-number">8</tspan>
+        <tspan x="15" dy="1.2em">No-Local</tspan>
+        <tspan x="15" dy="1.2em">Quantum</tspan>
+      </text>
+
+      <rect class="cls-23" x="271.05" y="90.99" width="229.79" height="81.74" rx="19.12" ry="19.12"/>
+      <text x="486" y="131.86" text-anchor="end" class="label-text">
+        <tspan x="486" dy="-1.2em" class="label-number">7</tspan>
+        <tspan x="486" dy="1.2em">Morfogenético</tspan>
+        <tspan x="486" dy="1.2em">/ Neurogenético</tspan>
+      </text>
+
+
+      <rect class="cls-23" x=".25" y="90.99" width="228.8" height="81.74" rx="19.12" ry="19.12"/>
+      <text x="15" y="131.86" text-anchor="start" class="label-text">
+        <tspan x="15" dy="-1.2em" class="label-number">6</tspan>
+        <tspan x="15" dy="1.2em">Meta-</tspan>
+        <tspan x="15" dy="1.2em">Programación</tspan>
+      </text>
+      
+      <!-- Circuito 5 -->
+      <rect class="cls-23" x="271.05" y="218.39" width="229.79" height="81.74" rx="19.12" ry="19.12"/>
+      <text x="486" y="259.26" text-anchor="end" class="label-text">
+        <tspan x="486" dy="-1.2em" class="label-number">5</tspan>
+        <tspan x="486" dy="1.2em">Neuro-</tspan>
+        <tspan x="486" dy="1.2em">Somático</tspan>
+      </text>
+
+      <!-- Circuito 4 -->
+      <rect class="cls-23" x=".25" y="218.39" width="228.8" height="81.74" rx="19.12" ry="19.12"/>
+      <text x="15" y="259.26" text-anchor="start" class="label-text">
+        <tspan x="15" dy="-1.2em" class="label-number">4</tspan>
+        <tspan x="15" dy="1.2em">Socio-</tspan>
+        <tspan x="15" dy="1.2em">Sexual</tspan>
+      </text>
+
+      <!-- Circuito 3 -->
+      <rect class="cls-24" x=".25" y="319.35" width="228.8" height="81.74" rx="19.12" ry="19.12"/>
+      <text x="15" y="360.22" text-anchor="start" class="label-text">
+        <tspan x="15" dy="-1.2em" class="label-number">3</tspan>
+        <tspan x="15" dy="1.2em">Semántico</tspan>
+      </text>
+
+      <rect class="cls-24" x="271.05" y="319.35" width="229.79" height="81.74" rx="19.12" ry="19.12"/>
+
+
+
+
+
+      <!-- Circuito 2 -->
+      <rect class="cls-23" x=".25" y="405.63" width="500.68" height="98.45" rx="19.12" ry="19.12"/>
+      <text x="15" y="454.855" text-anchor="start" class="label-text">
+        <tspan x="15" dy="-1.2em" class="label-number">2</tspan>
+        <tspan x="15" dy="1.2em">Emocional-</tspan>
+        <tspan x="15" dy="1.2em">Territorial</tspan>
+      </text>
+
+      <!-- Circuito 1 -->
+      <rect class="cls-23" x=".25" y="509.08" width="500.59" height="98.45" rx="19.12" ry="19.12"/>
+      <text x="15" y="558.305" text-anchor="start" class="label-text">
+        <tspan x="15" dy="-1.2em" class="label-number">1</tspan>
+        <tspan x="15" dy="1.2em">Bio-</tspan>
+        <tspan x="15" dy="1.2em">supervivencia</tspan>
+      </text>
+
+
+      <!-- Supraconscinte -->
+      <circle class="cls-22" cx="246.56" cy="182.14" r="155.38"/>
+
+      <!-- Consciente -->
+      <circle class="cls-21" cx="246.56" cy="309.54" r="155.38"/>
+
+      <!-- Inconsciente -->
+      <circle class="cls-20" cx="246.56" cy="437.48" r="155.38"/>
+
+      
+      
+      <rect class="cls-15" x="238.15" y="398.59" width="127.42" height="12.55" transform="translate(-161.17 203.27) rotate(-29.77)"/>
+      <rect class="cls-15" x="350.89" y="118.44" width="12.55" height="127.4"/>
+      <rect class="cls-15" x="191.86" y="207.71" width="220.53" height="12.55" transform="translate(-34.1 369) rotate(-60.06)"/>
+      <rect class="cls-15" x="240.49" y="54.74" width="12.55" height="254.8" transform="translate(-.46 .63) rotate(-.15)"/>
+      <rect class="cls-15" x="127.82" y="80.32" width="127.18" height="12.55" transform="translate(-17.63 107.52) rotate(-30.06)"/>
+      <rect class="cls-15" x="130.09" y="245.84" width="12.55" height="127.4"/>
+      <rect class="cls-15" x="185.19" y="341.34" width="12.55" height="127.06" transform="translate(-254.98 369.33) rotate(-60.14)"/>
+      <rect class="cls-15" x="238.54" y="271.41" width="127.18" height="12.55" transform="translate(-98.46 188.68) rotate(-30.06)"/>
+      <rect class="cls-15" x="350.89" y="245.84" width="12.55" height="127.4"/>
+      <rect class="cls-15" x="295.85" y="277.8" width="12.56" height="127.18" transform="translate(-144.68 431.9) rotate(-59.94)"/>
+      <rect class="cls-15" x="190.97" y="462.98" width="221.67" height="12.55" transform="translate(-255.47 496.34) rotate(-60.03)"/>
+      <rect class="cls-15" x="185.13" y="358.58" width="12.55" height="221.35" transform="translate(-208.02 157.33) rotate(-29.82)"/>
+      <rect class="cls-15" x="127.86" y="335.11" width="127.74" height="12.56" transform="translate(-144.7 141.08) rotate(-29.91)"/>
+      <polygon class="cls-15" points="252.72 565.28 240.17 565.27 240.28 436.5 240.82 309.51 253.37 309.57 252.84 436.53 252.72 565.28"/>
+      <rect class="cls-15" x="185.45" y="213.82" width="12.56" height="127.74" transform="translate(-144.58 305.41) rotate(-60.09)"/>
+      <rect class="cls-15" x="185.46" y="103.56" width="12.55" height="220.86" transform="translate(-81.45 124.96) rotate(-30.09)"/>
+      <rect class="cls-15" x="295.53" y="22.72" width="12.56" height="127.74" transform="translate(76.25 305.02) rotate(-60.09)"/>
+      <rect class="cls-15" x="136.37" y="112.16" width="220.8" height="12.55"/>
+      <rect class="cls-15" x="130.09" y="118.44" width="12.55" height="127.4"/>
+      <rect class="cls-15" x="136.37" y="239.56" width="220.8" height="12.55"/>
+      <rect class="cls-15" x="136.37" y="366.96" width="220.8" height="12.55"/>
+      
+<!-- Keter -->
+<circle id="Keter" class="cls-16 sephirah" data-id="Keter" cx="246.45" cy="54.74" r="27.45"/>
+<text x="246.45" y="50" text-anchor="middle" class="sephirah-text-2">
+  <tspan x="246.45" dy="0">Keter</tspan>
+  <tspan x="246.45" dy="1.2em" class="sephirah-sub-2">Corona</tspan>
+</text>
+
+<!-- Chokmah -->
+<circle id="Chokmah" class="cls-2 sephirah" data-id="Chokmah" cx="357.17" cy="118.44" r="27.45"/>
+<text x="357.17" y="114" text-anchor="middle" class="sephirah-text">
+  <tspan x="357.17" dy="0">Chokmah</tspan>
+  <tspan x="357.17" dy="1.2em" class="sephirah-sub">Sabiduría</tspan>
+</text>
+
+<!-- Binah -->
+<circle id="Binah" class="cls-5 sephirah" data-id="Binah" cx="136.37" cy="118.44" r="27.45"/>
+<text x="136.37" y="114" text-anchor="middle" class="sephirah-text">
+  <tspan x="136.37" dy="0">Binah</tspan>
+  <tspan x="136.37" dy="1.2em" class="sephirah-sub">Entendimiento</tspan>
+</text>
+
+<!-- Chesed -->
+<circle id="Chesed" class="cls-7 sephirah" data-id="Chesed" cx="357.17" cy="245.84" r="27.45"/>
+<text x="357.17" y="241" text-anchor="middle" class="sephirah-text">
+  <tspan x="357.17" dy="0">Chesed</tspan>
+  <tspan x="357.17" dy="1.2em" class="sephirah-sub">Misericordia</tspan>
+</text>
+
+<!-- Geburah -->
+<circle id="Geburah" class="cls-12 sephirah" data-id="Geburah" cx="136.37" cy="245.84" r="27.45"/>
+<text x="136.37" y="241" text-anchor="middle" class="sephirah-text">
+  <tspan x="136.37" dy="0">Geburah</tspan>
+  <tspan x="136.37" dy="1.2em" class="sephirah-sub">Fuerza</tspan>
+</text>
+
+      
+<!-- Tiferet -->
+<circle id="Tiferet" class="cls-11 sephirah" data-id="Tiferet" cx="247.09" cy="309.54" r="27.45"/>
+<text x="247.09" y="305" text-anchor="middle" class="sephirah-text-2">
+  <tspan x="247.09" dy="0">Tiferet</tspan>
+  <tspan x="247.09" dy="1.2em" class="sephirah-sub-2">Belleza</tspan>
+</text>
+
+<!-- Netzach -->
+<circle id="Netzach" class="cls-6 sephirah" data-id="Netzach" cx="357.17" cy="373.24" r="27.45"/>
+<text x="357.17" y="369" text-anchor="middle" class="sephirah-text">
+  <tspan x="357.17" dy="0">Netzach</tspan>
+  <tspan x="357.17" dy="1.2em" class="sephirah-sub">Victoria</tspan>
+</text>
+
+<!-- Hod -->
+<circle id="Hod" class="cls-9 sephirah" data-id="Hod" cx="136.37" cy="373.24" r="27.45"/>
+<text x="136.37" y="369" text-anchor="middle" class="sephirah-text">
+  <tspan x="136.37" dy="0">Hod</tspan>
+  <tspan x="136.37" dy="1.2em" class="sephirah-sub">Esplendor</tspan>
+</text>
+
+<!-- Yesod -->
+<circle id="Yesod" class="cls-4 sephirah" data-id="Yesod" cx="247.09" cy="436.94" r="27.45"/>
+<text x="247.09" y="432" text-anchor="middle" class="sephirah-text">
+  <tspan x="247.09" dy="0">Yesod</tspan>
+  <tspan x="247.09" dy="1.2em" class="sephirah-sub">Fundamento</tspan>
+</text>
+
+      
+
+    <g id="Malkuth">
+        <path class="cls-13" d="M266.1,545.62c-4.93-4.74-11.63-7.66-19.01-7.66s-14.11,2.93-19.04,7.69l19.01,19.01,19.04-19.04Z"/>
+        <path class="cls-18" d="M228.05,545.65c-5.18,4.99-8.41,12-8.41,19.76s2.92,14.07,7.66,19.01l19.76-19.76-19.01-19.01Z"/>
+        <path class="cls-14" d="M266.1,545.62l-19.04,19.04,19.79,19.79c4.76-4.94,7.69-11.65,7.69-19.04,0-7.78-3.24-14.8-8.44-19.79Z"/>
+        <path class="cls-19" d="M227.3,584.42c4.99,5.2,12.01,8.44,19.79,8.44s14.77-3.23,19.76-8.41l-19.79-19.79-19.76,19.76Z"/>
+      </g>
+      <text x="247" y="562" text-anchor="middle" class="sephirah-text">
+        <tspan x="247" dy="0">Malkuth</tspan>
+        <tspan x="247" dy="1.2em" class="sephirah-sub">Reino</tspan>
+      </text>
+    
+
+
+    </g>
+
+
+  </svg>
