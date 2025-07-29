@@ -29,9 +29,6 @@ body {
   text-align: center;
   margin-top: 40px;
   padding-top: 50px;
-
-  margin-bottom: 60px;
-
 }
 
 .hero {
@@ -334,3 +331,15 @@ svg {
     font-size: 12px;
     font-weight: bold;
   }
+
+
+  .footer {
+    font-family: 'Gilroy';
+    text-align: center;
+    margin-top: 70px;
+    padding: 1em 0;
+    background: #000000;
+    font-size: 0.9rem;
+    color: #fff;
+  }
+  
