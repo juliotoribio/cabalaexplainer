@@ -1,54 +1,44 @@
-/* menu.css */
-
+/* contenedor principal */
 .navbar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  background-color: #ffffff;
-  padding: 0.75rem 1.5rem;
+  margin: 0px 7%;
+  padding: 10px 20px;
+  background: #fff;
   border-radius: 1rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  max-width: 1200px;
-  margin: 1rem auto;
-}
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);}
 
+/* logo */
 .navbar__logo img {
-  height: 2.5rem;
-  width: auto;
-  display: block;
+  height: 40px;
 }
 
+/* menú: ocupa todo el espacio central */
 .navbar__menu {
-  list-style: none;
   display: flex;
-  gap: 2rem;
+  list-style: none;
   margin: 0;
   padding: 0;
+  gap: 2rem;
+  flex: 1;
+  justify-content: center;
 }
 
+/* cada enlace del menú */
 .navbar__item a {
   text-decoration: none;
-  font-size: 1rem;
   font-weight: 500;
-  color: #111111;
-  transition: color 0.2s ease;
+  color: #000; /* tu color */
 }
 
-.navbar__item a:hover {
-  color: #555555;
-}
-
-/* Responsive: reduce gap on smaller screens */
-@media (max-width: 768px) {
-  .navbar {
-    padding: 0.5rem 1rem;
-  }
-
-  .navbar__menu {
-    gap: 1rem;
-  }
-
-  .navbar__item a {
-    font-size: 0.95rem;
-  }
+/* botón “Contáctanos” */
+.navbar__button {
+  display: inline-block;
+  background-color: #000;  /* tu color principal */
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: 500;
+  margin-left: auto; /* garantiza que quede a la derecha */
 }

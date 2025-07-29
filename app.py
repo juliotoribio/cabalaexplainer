@@ -14,5 +14,11 @@ def nosotros():
 def recursos():
     return render_template('recursos.html')
 
+# <-- Aquí agregamos la ruta de contacto
+@app.route('/contacto')
+def contacto():
+    return render_template('contacto.html')
+
+
 if __name__ == '__main__':
     app.run(debug=True, port=5001)
